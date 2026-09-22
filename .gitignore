@@ -1,0 +1,53 @@
+# MySQL local and temporary files
+
+*.sql.bak
+*.sql.tmp
+*.log
+
+# Database exports and backups
+
+*.dump
+*.bak
+*.backup
+
+# IDE and editor files
+
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+
+*.tmp
+*.temp
+*.cache
+
+# Environment and secret files
+
+.env
+.env.*
+!.env.example
+
+# Generated files
+
+*.generated.sql
+
+# Local configuration
+
+config.local.sql
+
+# Test and debug output
+
+debug.log
+error.log
+
+# Personal notes
+
+notes.txt
